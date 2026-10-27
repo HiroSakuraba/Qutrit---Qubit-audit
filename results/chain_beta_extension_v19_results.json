@@ -1,0 +1,113 @@
+{
+  "claims_not_established": [
+    "physical time",
+    "dynamical Hamiltonian",
+    "unique continuum regularization",
+    "U(1) charge dynamics",
+    "QED beta function"
+  ],
+  "scope_note": "Overlap comparisons assume a common ambient qutrit frame and chosen ordered paths; both exceed the source axiom.",
+  "status": "PASS",
+  "test_count": 27,
+  "test_names": [
+    "Bell contraction theta=0.0000",
+    "principal-angle probability theta=0.0000",
+    "Bell contraction theta=0.2900",
+    "principal-angle probability theta=0.2900",
+    "Bell contraction theta=0.7000",
+    "principal-angle probability theta=0.7000",
+    "Bell contraction theta=1.5708",
+    "principal-angle probability theta=1.5708",
+    "aligned Bell success p=1/6",
+    "orthogonal-normal Bell p=1/12",
+    "complex Grassmannian principal-angle identity",
+    "U(2) local-frame transport covariance",
+    "overlap map positivity and trace nonincrease",
+    "explicit Kraus completeness with added failure",
+    "normalized success is nonlinear in mixed-state inputs",
+    "exact three-plane composite overlap",
+    "exact nontrivial polar holonomy",
+    "Wilson trace 16/sqrt(65) differs from 2",
+    "64 frame-gauge loop conjugation trials",
+    "smooth path approaches unit gain",
+    "uniformly flat zigzag tends to nonunit gain",
+    "distinct limits despite same uniform limiting support",
+    "exact quadratic-variation logarithmic asymptotic",
+    "finite zigzag path composition n=4",
+    "finite zigzag path composition n=10",
+    "finite zigzag path composition n=20",
+    "fixed record readout independent of path n"
+  ],
+  "values": {
+    "U(2) local-frame transport covariance": {
+      "max_error": 3.8037545540175316e-16
+    },
+    "alpha_candidate": 0.00729735256366226,
+    "complex Grassmannian principal-angle identity": {
+      "max_error": 7.771561172376096e-16
+    },
+    "continuum": {
+      "samples": [
+        {
+          "n": 20,
+          "smooth_gain": 0.9799469533004357,
+          "zigzag_gain": 0.4824829958528711,
+          "zigzag_support_max_deviation": 0.2683281572999747
+        },
+        {
+          "n": 80,
+          "smooth_gain": 0.9949501866046265,
+          "zigzag_gain": 0.48569694235526745,
+          "zigzag_support_max_deviation": 0.13416407864998736
+        },
+        {
+          "n": 320,
+          "smooth_gain": 0.998735173899112,
+          "zigzag_gain": 0.4864891650211036,
+          "zigzag_support_max_deviation": 0.06708203932499368
+        },
+        {
+          "n": 1280,
+          "smooth_gain": 0.9996836437750471,
+          "zigzag_gain": 0.486686529123232,
+          "zigzag_support_max_deviation": 0.03354101966249684
+        },
+        {
+          "n": 5120,
+          "smooth_gain": 0.999920901565557,
+          "zigzag_gain": 0.4867358271164823,
+          "zigzag_support_max_deviation": 0.01677050983124842
+        }
+      ],
+      "smooth_Theta": 0.9,
+      "smooth_limit": 1.0,
+      "zigzag_endpoint_conditional_concurrence": 0.7870342508580765,
+      "zigzag_limit": 0.4867522559599717,
+      "zigzag_limit_exact": "exp(-sigma^2/2)",
+      "zigzag_sigma": 1.2
+    },
+    "holonomy": {
+      "overlap_loop": "Matrix([[3/4, 0], [3/16, 3/4]])",
+      "polar_rotation_angle": 0.12435499454676144,
+      "polar_unitary": "Matrix([[8*sqrt(65)/65, -sqrt(65)/65], [sqrt(65)/65, 8*sqrt(65)/65]])",
+      "wilson_trace_approx": 1.9845557534273353,
+      "wilson_trace_exact": "16/sqrt(65)"
+    },
+    "normalized success is nonlinear in mixed-state inputs": {
+      "Frobenius_gap": 0.13409672280715945
+    },
+    "one_step_K_singular_values": [
+      1.0,
+      0.8253356149096783
+    ],
+    "overlap map positivity and trace nonincrease": {
+      "max_negative_eigenvalue_violation": 0.0,
+      "max_trace_increase": 0.0
+    },
+    "probabilities": {
+      "aligned": 0.16666666666666666,
+      "orthogonal_normals": 0.08333333333333333,
+      "theta_0.7": 0.13208196428751004
+    }
+  }
+}

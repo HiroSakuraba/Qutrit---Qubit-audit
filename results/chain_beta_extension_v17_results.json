@@ -1,0 +1,510 @@
+{
+  "program": "Chain Theory QED beta v17 \u2014 full factor gauge-intertwiner audit",
+  "status": "Proved explicit nonuniqueness under complete local matching-factor action; no unique physical alpha or beta function",
+  "source_model_dimensions": {
+    "record_space": 31104,
+    "unread_connected": 24,
+    "two_read_arm_operator_space": 1296,
+    "physical_two_qutrit": 9
+  },
+  "natural_full_local_group": "(SU(3)xSU(2))^3 acting by adjoint on each local operator factor; physical joining qutrits transform under SU(3)_Q1 x SU(3)_Q2",
+  "qualification": "This factor representation is source-motivated and larger than pair-ket stabilizer matchings; the original paper does not define a unique operational group action or physical channel.",
+  "sixteen_invariant_irreducible_sectors": {
+    "0000": 24,
+    "1000": 192,
+    "0100": 72,
+    "1100": 576,
+    "0010": 192,
+    "1010": 1536,
+    "0110": 576,
+    "1110": 4608,
+    "0001": 72,
+    "1001": 576,
+    "0101": 216,
+    "1101": 1728,
+    "0011": 576,
+    "1011": 4608,
+    "0111": 1728,
+    "1111": 13824
+  },
+  "full_Choi_intertwiner_classification": {
+    "isotypic_blocks": 36,
+    "commutant_complex_dimension": 144,
+    "Hermitian_commutant_real_dimension": 144,
+    "normalized_trace_constraint_rank": 16,
+    "affine_dimension_of_normalized_trace_preserving_UCP_maps": 128,
+    "Choi_Hilbert_dimension": 279936,
+    "block_criterion": "In group-adapted basis J=direct_sum(I_irrep tensor H_block), H_block positive semidefinite; Tr_output J=(9/N)I_R; unital follows by output irreducibility",
+    "qutrit_local_decomposition": "(1+8) tensor 3 = 3+3+bar6+15",
+    "Choi_block_decomposition": [
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "3",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 216,
+        "multiplicity": 4
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "3",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 648,
+        "multiplicity": 4
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "3",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 648,
+        "multiplicity": 4
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "3",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 1944,
+        "multiplicity": 4
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "bar6",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 432,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "bar6",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 1296,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "bar6",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 1296,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "bar6",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 3888,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "15",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 1080,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "15",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 3240,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "15",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 3240,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "3",
+        "qutrit_2": "15",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 9720,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "3",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 432,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "3",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 1296,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "3",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 1296,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "3",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 3888,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "bar6",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 864,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "bar6",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 2592,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "bar6",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 2592,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "bar6",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 7776,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "15",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 2160,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "15",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 6480,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "15",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 6480,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "bar6",
+        "qutrit_2": "15",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 19440,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "3",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 1080,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "3",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 3240,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "3",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 3240,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "3",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 9720,
+        "multiplicity": 2
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "bar6",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 2160,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "bar6",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 6480,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "bar6",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 6480,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "bar6",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 19440,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "15",
+        "qubit_1": "1",
+        "qubit_2": "1",
+        "irrep_dimension": 5400,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "15",
+        "qubit_1": "1",
+        "qubit_2": "3",
+        "irrep_dimension": 16200,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "15",
+        "qubit_1": "3",
+        "qubit_2": "1",
+        "irrep_dimension": 16200,
+        "multiplicity": 1
+      },
+      {
+        "qutrit_1": "15",
+        "qutrit_2": "15",
+        "qubit_1": "3",
+        "qubit_2": "3",
+        "irrep_dimension": 48600,
+        "multiplicity": 1
+      }
+    ]
+  },
+  "record_projector_overlaps": {
+    "0000": {
+      "0": "24",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "1000": {
+      "0": "192",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "0100": {
+      "0": "141/2",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "3/2"
+    },
+    "1100": {
+      "0": "552",
+      "1": "12",
+      "sqrt2": "12",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "0010": {
+      "0": "192",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "1010": {
+      "0": "1472",
+      "1": "28",
+      "sqrt2": "0",
+      "sqrt3": "36",
+      "sqrt6": "0"
+    },
+    "0110": {
+      "0": "552",
+      "1": "12",
+      "sqrt2": "12",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "1110": {
+      "0": "4608",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "0001": {
+      "0": "141/2",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "3/2"
+    },
+    "1001": {
+      "0": "552",
+      "1": "12",
+      "sqrt2": "12",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "0101": {
+      "0": "207",
+      "1": "3",
+      "sqrt2": "0",
+      "sqrt3": "6",
+      "sqrt6": "0"
+    },
+    "1101": {
+      "0": "1728",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "0011": {
+      "0": "552",
+      "1": "12",
+      "sqrt2": "12",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "1011": {
+      "0": "4608",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "0111": {
+      "0": "1728",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    },
+    "1111": {
+      "0": "13824",
+      "1": "0",
+      "sqrt2": "0",
+      "sqrt3": "0",
+      "sqrt6": "0"
+    }
+  },
+  "scalar_UCP_full_gauge_intertwiners": {
+    "number_of_distinct_examples": 2,
+    "rho1": "I/31104",
+    "rho2": "I/31104 + (1/4)(P_0000/24-P_1111/13824)",
+    "min_density_eigenvalues_exact": {
+      "0000": "325/31104",
+      "1111": "7/497664",
+      "other": "1/31104"
+    },
+    "identical_five_record_outcome_probabilities": {
+      "0": "7733/7776",
+      "1": "79/31104",
+      "sqrt2": "1/648",
+      "sqrt3": "7/5184",
+      "sqrt6": "1/10368"
+    },
+    "different_on_other_full_algebra_inputs": true
+  },
+  "non_scalar_UCP_full_gauge_intertwiner": {
+    "epsilon": "1/1000",
+    "K1_casimir_spectrum": {
+      "-1": 15,
+      "0": 3,
+      "1": 6,
+      "3": 3
+    },
+    "full_Choi_min_eigen_exact": "757/31104000",
+    "full_Choi_max_eigen_exact": "1729/31104000",
+    "CP_proof": "K1\u2297K1 spectrum; all Choi eigenvalues (1+81 epsilon lambda_i lambda_j)/31104 strictly positive",
+    "unital_and_normalized_trace_preserving": true,
+    "full_source_record_label_trace_calibration": true,
+    "physical_effect_coefficients": {
+      "1": "79/N I - 3 epsilon/384 (S-I/3)",
+      "sqrt3": "42/N I + 3 epsilon/384 (S-I/3)",
+      "sqrt2": "48/N I",
+      "sqrt6": "3/N I",
+      "0": "30932/N I"
+    },
+    "weighted_score_operator": "alpha I + epsilon (sqrt3-1)/128 (S-I/3)",
+    "source_initial_state_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 28027*sqrt(3)/20736000 + 157919/62208000",
+    "score_deviation_exact": "-1/768000 + sqrt(3)/768000",
+    "source_initial_state_score_decimal": 0.007298305754817949,
+    "alpha_candidate_decimal": 0.00729735256366226,
+    "commutes_with_original_Bell_projection": true
+  },
+  "numerical_checks": {
+    "independent_SU3_x_SU3_covariance_trials": 12,
+    "max_covariance_HS_error": 1.172216711442709e-13,
+    "max_full_lifted_phi_covariance_error": 7.409971984132844e-16,
+    "max_source_representation_orthogonality_residual": 1.2598241547598943e-14,
+    "direct_QQ_contract_checks": {
+      "0": {
+        "trace_Bilinear_on_QQ_symmetric_unnormalized": 2.999999999999999,
+        "trace_Bilinear_on_QQ_antisymmetric_unnormalized": -2.999999999999999
+      },
+      "3": {
+        "trace_Bilinear_on_QQ_symmetric_unnormalized": 2.999999999999999,
+        "trace_Bilinear_on_QQ_antisymmetric_unnormalized": -2.999999999999999
+      },
+      "7": {
+        "trace_Bilinear_on_QQ_symmetric_unnormalized": 3.0000000000000004,
+        "trace_Bilinear_on_QQ_antisymmetric_unnormalized": -3.0000000000000004
+      }
+    }
+  },
+  "beta_function": "NOT derived: no intrinsic scale, Dirac dynamics, or physical mapping from measurement score to electromagnetic charge polarization."
+}

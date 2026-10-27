@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "scope": "finite-dimensional virtual-copy Bell networks; auxiliary graph walk not source-derived",
+  "graph_A": {
+    "nodes": 14,
+    "edges": 21,
+    "degrees": [
+      3
+    ],
+    "girth": 4,
+    "four_cycles": 7,
+    "adjacency_trace_A4": 266,
+    "diameter": 4,
+    "laplacian_gap": 0.753020396282533,
+    "return_probability_tau1": 0.1751564790780494,
+    "effective_spectral_dimension_tau1": 1.683791301710388
+  },
+  "graph_B": {
+    "nodes": 14,
+    "edges": 21,
+    "degrees": [
+      3
+    ],
+    "girth": 6,
+    "four_cycles": 0,
+    "adjacency_trace_A4": 210,
+    "diameter": 3,
+    "laplacian_gap": 1.5857864376269022,
+    "return_probability_tau1": 0.16455880257030017,
+    "effective_spectral_dimension_tau1": 1.9827387631900404
+  },
+  "entropy_reconstruction": {
+    "graphs_tested": 3,
+    "full_pair_entropy_reconstruction": true,
+    "S_vertex_bits": 3,
+    "S_adjacent_pair_bits": 4,
+    "S_nonadjacent_pair_bits": 6,
+    "edge_mutual_info_bits": 2
+  },
+  "explicit_small_hilbert_space_entropy": {
+    "entropy_bits_Q1": 1.0,
+    "entropy_bits_Q2": 1.0,
+    "entropy_bits_Q1Q2": 1.9999999999999996,
+    "entropy_bits_Q1q1": 6.406853007629834e-16,
+    "entropy_bits_q1q2": 1.9999999999999996
+  },
+  "swapping_grid": [
+    {
+      "dim": 2,
+      "links": 1,
+      "join_count": 0,
+      "unnormalized_amplitude": 0.9999999999999998,
+      "ordinary_born_success_probability": 0.9999999999999998,
+      "conditional_endpoint_error": 1.5700924586837752e-16
+    },
+    {
+      "dim": 2,
+      "links": 2,
+      "join_count": 1,
+      "unnormalized_amplitude": 0.49999999999999983,
+      "ordinary_born_success_probability": 0.2499999999999999,
+      "conditional_endpoint_error": 0.0
+    },
+    {
+      "dim": 2,
+      "links": 3,
+      "join_count": 2,
+      "unnormalized_amplitude": 0.2499999999999999,
+      "ordinary_born_success_probability": 0.06249999999999995,
+      "conditional_endpoint_error": 1.5700924586837752e-16
+    },
+    {
+      "dim": 2,
+      "links": 4,
+      "join_count": 3,
+      "unnormalized_amplitude": 0.12499999999999992,
+      "ordinary_born_success_probability": 0.015624999999999983,
+      "conditional_endpoint_error": 1.5700924586837752e-16
+    },
+    {
+      "dim": 2,
+      "links": 5,
+      "join_count": 4,
+      "unnormalized_amplitude": 0.06249999999999995,
+      "ordinary_born_success_probability": 0.0039062499999999944,
+      "conditional_endpoint_error": 1.5700924586837752e-16
+    },
+    {
+      "dim": 3,
+      "links": 1,
+      "join_count": 0,
+      "unnormalized_amplitude": 1.0000000000000002,
+      "ordinary_born_success_probability": 1.0000000000000002,
+      "conditional_endpoint_error": 0.0
+    },
+    {
+      "dim": 3,
+      "links": 2,
+      "join_count": 1,
+      "unnormalized_amplitude": 0.33333333333333354,
+      "ordinary_born_success_probability": 0.11111111111111122,
+      "conditional_endpoint_error": 1.9229626863835638e-16
+    },
+    {
+      "dim": 3,
+      "links": 3,
+      "join_count": 2,
+      "unnormalized_amplitude": 0.11111111111111122,
+      "ordinary_born_success_probability": 0.012345679012345697,
+      "conditional_endpoint_error": 0.0
+    },
+    {
+      "dim": 3,
+      "links": 4,
+      "join_count": 3,
+      "unnormalized_amplitude": 0.03703703703703708,
+      "ordinary_born_success_probability": 0.001371742112482856,
+      "conditional_endpoint_error": 1.9229626863835638e-16
+    },
+    {
+      "dim": 3,
+      "links": 5,
+      "join_count": 4,
+      "unnormalized_amplitude": 0.012345679012345696,
+      "ordinary_born_success_probability": 0.00015241579027587296,
+      "conditional_endpoint_error": 1.9229626863835638e-16
+    },
+    {
+      "dim": 4,
+      "links": 1,
+      "join_count": 0,
+      "unnormalized_amplitude": 1.0,
+      "ordinary_born_success_probability": 1.0,
+      "conditional_endpoint_error": 0.0
+    },
+    {
+      "dim": 4,
+      "links": 2,
+      "join_count": 1,
+      "unnormalized_amplitude": 0.25,
+      "ordinary_born_success_probability": 0.0625,
+      "conditional_endpoint_error": 0.0
+    },
+    {
+      "dim": 4,
+      "links": 3,
+      "join_count": 2,
+      "unnormalized_amplitude": 0.0625,
+      "ordinary_born_success_probability": 0.00390625,
+      "conditional_endpoint_error": 0.0
+    },
+    {
+      "dim": 4,
+      "links": 4,
+      "join_count": 3,
+      "unnormalized_amplitude": 0.015625,
+      "ordinary_born_success_probability": 0.000244140625,
+      "conditional_endpoint_error": 0.0
+    },
+    {
+      "dim": 4,
+      "links": 5,
+      "join_count": 4,
+      "unnormalized_amplitude": 0.00390625,
+      "ordinary_born_success_probability": 1.52587890625e-05,
+      "conditional_endpoint_error": 0.0
+    }
+  ],
+  "edge_matching_max_error": 5.664685960735334e-16,
+  "extra_loop_transport_example": {
+    "flat_trace_real": 2.0,
+    "nonflat_trace_real": 1.4142135623730951
+  },
+  "auxiliary_walkers": {
+    "A": {
+      "added_hamiltonian": "H_gamma = gamma * adjacency",
+      "time_in_arbitrary_units": 0.35,
+      "gamma_values": [
+        0.6,
+        1.4
+      ],
+      "neighbor_probabilities": [
+        0.12046174277273577,
+        0.42522682330268247
+      ],
+      "probability_difference": 0.30476508052994666
+    },
+    "B": {
+      "added_hamiltonian": "H_gamma = gamma * adjacency",
+      "time_in_arbitrary_units": 0.35,
+      "gamma_values": [
+        0.6,
+        1.4
+      ],
+      "neighbor_probabilities": [
+        0.12290614500356911,
+        0.4806113638932845
+      ],
+      "probability_difference": 0.3577052188897154
+    }
+  },
+  "distinct_non_rescaling_hamiltonians": {
+    "A": {
+      "added_hamiltonian": "H = adjacency + mass * (+1 on Q; -1 on q)",
+      "at_time": 0.6,
+      "cases": [
+        {
+          "sublattice_mass": 0.0,
+          "neighbor_probability": 0.4818022227433436,
+          "energy_gap": 1.109916264174741
+        },
+        {
+          "sublattice_mass": 1.5,
+          "neighbor_probability": 0.34532240249063184,
+          "energy_gap": 3.1987363307218066
+        }
+      ]
+    },
+    "B": {
+      "added_hamiltonian": "H = adjacency + mass * (+1 on Q; -1 on q)",
+      "at_time": 0.6,
+      "cases": [
+        {
+          "sublattice_mass": 0.0,
+          "neighbor_probability": 0.5868649942874338,
+          "energy_gap": 2.8284271247461894
+        },
+        {
+          "sublattice_mass": 1.5,
+          "neighbor_probability": 0.4272752439561647,
+          "energy_gap": 4.123105625617657
+        }
+      ]
+    }
+  },
+  "alpha_inverse_from_source": "137.03599918956615502918",
+  "local_alpha_count_independent_of_graph": true,
+  "beta_coefficient_derived": false,
+  "limitations": [
+    "Physical reduced-state entropies require treating virtual copies as vertex tensor factors.",
+    "A clock or energy is not supplied by a Bell contraction.",
+    "Auxiliary hopping models and loop holonomies are not selected by the axiom.",
+    "The normalized selected branch omits the Born success probability."
+  ]
+}

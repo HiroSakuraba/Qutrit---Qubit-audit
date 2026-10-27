@@ -1,0 +1,137 @@
+{
+  "alpha_candidate_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+  "alpha_candidate_float": 0.00729735256366226,
+  "auxiliary_channel_semigroup_error_max": 2.180419140566478e-17,
+  "auxiliary_channel_trace_error_max": 0.0,
+  "auxiliary_exchange_decay_eigenvalues": {
+    "X_only": "-2 gamma_X",
+    "Y_only": "-2 gamma_Y",
+    "both": "-2 (gamma_X+gamma_Y)",
+    "fixed": "0"
+  },
+  "auxiliary_exchange_superoperator_mode_multiplicities": {
+    "X_only": 6924,
+    "Y_only": 7836,
+    "both": 4506,
+    "fixed": 10318
+  },
+  "bell_chain_disjoint_joins": [
+    {
+      "d": 2,
+      "final_Bell_output_residual": 7.850462293418876e-17,
+      "order_residual": 0.0,
+      "ordinary_born_selected_prob": 0.0625,
+      "two_joins_branch_amplitude": 0.25
+    },
+    {
+      "d": 3,
+      "final_Bell_output_residual": 5.408332555453774e-17,
+      "order_residual": 0.0,
+      "ordinary_born_selected_prob": 0.012345679012345678,
+      "two_joins_branch_amplitude": 0.1111111111111111
+    },
+    {
+      "d": 4,
+      "final_Bell_output_residual": 0.0,
+      "order_residual": 0.0,
+      "ordinary_born_selected_prob": 0.00390625,
+      "two_joins_branch_amplitude": 0.0625
+    }
+  ],
+  "character_traces": {
+    "TrX": 82,
+    "TrXY": -8,
+    "TrY": 70
+  },
+  "checks": [
+    "172 source record eigenvectors",
+    "exchange involutions",
+    "exact commuting exchange action",
+    "character traces",
+    "character projector 1",
+    "character projector sqrt2",
+    "character projector sqrt3",
+    "character projector sqrt6",
+    "exact 172-record weighted trace",
+    "full 172 squared superoperator dimension",
+    "exact conjugation-mode multiplicities",
+    "X and Y mode dimension identities",
+    "record-state PSD",
+    "CP semigroup density PSD gamma=0.0,0.0",
+    "TP semigroup gamma=0.0,0.0",
+    "composition gamma=0.0,0.0",
+    "CP semigroup density PSD gamma=0.3,0.7",
+    "TP semigroup gamma=0.3,0.7",
+    "composition gamma=0.3,0.7",
+    "CP semigroup density PSD gamma=0.9,0.1",
+    "TP semigroup gamma=0.9,0.1",
+    "composition gamma=0.9,0.1",
+    "CP semigroup density PSD gamma=0.5,0.5",
+    "TP semigroup gamma=0.5,0.5",
+    "composition gamma=0.5,0.5",
+    "exact random unitary parity process gx=0.2, gy=0.8",
+    "exact random unitary parity process gx=0.8, gy=0.2",
+    "exact random unitary parity process gx=0.3, gy=0.3",
+    "different rates cause different physical auxiliary dynamics",
+    "all source record weights are unchanged by any rates",
+    "Pauli anticommutes 01",
+    "Pauli two-step product unitary 01",
+    "Pauli-order channels identical 01",
+    "Pauli anticommutes 02",
+    "Pauli two-step product unitary 02",
+    "Pauli-order channels identical 02",
+    "Pauli anticommutes 12",
+    "Pauli two-step product unitary 12",
+    "Pauli-order channels identical 12",
+    "chain d=2 order commutes",
+    "chain d=2 exact two-join amplitude",
+    "chain d=2 Born selected branch prob d^-4",
+    "chain d=2 normalized output order-independent",
+    "chain d=3 order commutes",
+    "chain d=3 exact two-join amplitude",
+    "chain d=3 Born selected branch prob d^-4",
+    "chain d=3 normalized output order-independent",
+    "chain d=4 order commutes",
+    "chain d=4 exact two-join amplitude",
+    "chain d=4 Born selected branch prob d^-4",
+    "chain d=4 normalized output order-independent",
+    "arbitrary schedule q=0.0 yields same selected state",
+    "arbitrary schedule q=0.2 yields same selected state",
+    "arbitrary schedule q=0.5 yields same selected state",
+    "arbitrary schedule q=0.9 yields same selected state",
+    "arbitrary schedule q=1.0 yields same selected state"
+  ],
+  "conclusions": {
+    "exact_mathematics": "The char sectors allow continuum many auxiliary CP-TP rate assignments; Pauli read-order signs do not distinguish standalone channels; two disjoint Bell joins have identical selected final state in either execution order",
+    "not_derived": "The original axiom does not choose a scheduler, stochastic law, an intrinsic clock, an electromagnetic propagator, or a QED beta function",
+    "source_derived": "X,Y are commuting involutive exchanges labeling signed records; there is no time order for the joined reads; Born weights are not frequencies in the source ontology; one copy is read once"
+  },
+  "source_record_character_sectors": [
+    {
+      "X": 1,
+      "Y": 1,
+      "multiplicity": 79,
+      "weight": "1"
+    },
+    {
+      "X": 1,
+      "Y": -1,
+      "multiplicity": 48,
+      "weight": "sqrt2"
+    },
+    {
+      "X": -1,
+      "Y": 1,
+      "multiplicity": 42,
+      "weight": "sqrt3"
+    },
+    {
+      "X": -1,
+      "Y": -1,
+      "multiplicity": 3,
+      "weight": "sqrt6"
+    }
+  ],
+  "status": "PASS",
+  "test_count": 56
+}

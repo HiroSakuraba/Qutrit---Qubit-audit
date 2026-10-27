@@ -1,0 +1,125 @@
+{
+  "checks": [
+    "P and F complementary projectors",
+    "eight-dimensional failure complement",
+    "all instruments retain exact Bell-selected Kraus P",
+    "65-Kraus completeness s=0.0",
+    "Kraus-channel formula s=0.0",
+    "positivity trace s=0.0",
+    "65-Kraus completeness s=0.13",
+    "Kraus-channel formula s=0.13",
+    "positivity trace s=0.13",
+    "65-Kraus completeness s=0.5",
+    "Kraus-channel formula s=0.5",
+    "positivity trace s=0.5",
+    "65-Kraus completeness s=0.87",
+    "Kraus-channel formula s=0.87",
+    "positivity trace s=0.87",
+    "65-Kraus completeness s=1.0",
+    "Kraus-channel formula s=1.0",
+    "positivity trace s=1.0",
+    "exact failure pure-state trace distance 7/8",
+    "exact symbolic Bell and complement rank",
+    "original two-link selected Bell probability 1/6",
+    "selected remote qubit Bell ray exactly",
+    "unconditional initial remote state I4/4",
+    "universal coarse-grained remote failure state",
+    "two completions differ on actual local marginal",
+    "exact-rational original-input completion distance 7/16",
+    "no signaling on entangled input s=0.0",
+    "unchanged selected branch s=0.0",
+    "no signaling on entangled input s=0.4",
+    "unchanged selected branch s=0.4",
+    "no signaling on entangled input s=1.0",
+    "unchanged selected branch s=1.0",
+    "160 independent SU3 correlated gauge-covariance trials",
+    "81D superoperator spectrum s=0.0",
+    "81D superoperator spectrum s=0.35",
+    "81D superoperator spectrum s=1.0",
+    "exact iterated spectral decay formula",
+    "QMS semigroup s=0.0",
+    "Poisson convex-channel formula s=0.0",
+    "QMS semigroup s=0.25",
+    "Poisson convex-channel formula s=0.25",
+    "QMS semigroup s=0.75",
+    "Poisson convex-channel formula s=0.75",
+    "QMS semigroup s=1.0",
+    "Poisson convex-channel formula s=1.0",
+    "full semigroup compositional error bound"
+  ],
+  "measurements": {
+    "160 independent SU3 correlated gauge-covariance trials": {
+      "max_residual": 6.177400911622891e-16
+    },
+    "81D superoperator spectrum s=0.0": {
+      "max_error": 3.774758283725532e-15
+    },
+    "81D superoperator spectrum s=0.35": {
+      "max_error": 1.7763568394002505e-15
+    },
+    "81D superoperator spectrum s=1.0": {
+      "max_error": 1.1102230246251565e-16
+    },
+    "aligned_selected_born_probability": 0.1666666666666667,
+    "allowed_source_branch": "P3 on two joining qutrit copies; normalized postselected state; source excludes all failure branches",
+    "auxiliary_QMS_relaxation_rate": "gamma*s on traceless 8x8 failure block; gamma on Bell-failure coherences",
+    "full semigroup compositional error bound": {
+      "max_error": 7.868667769515455e-17
+    },
+    "not_derived": [
+      "physical time or Hamiltonian",
+      "gauge propagator or photon",
+      "unique continuum transfer",
+      "electron species",
+      "QED beta coefficient"
+    ],
+    "original_input_completion_difference_eigenvalues": {
+      "-1/48": 1,
+      "-5/48": 4,
+      "0": 1,
+      "7/48": 3
+    },
+    "original_input_completion_trace_distance_exact": "7/16",
+    "pure_failure_trace_distance": 0.875,
+    "remote_failure_density_eigenvalues": [
+      0.09999999999999995,
+      0.3,
+      0.30000000000000004,
+      0.3000000000000001
+    ],
+    "spectral_relaxations": [
+      {
+        "after_8_trace_distance": 0.875,
+        "s": 0.0,
+        "step_decay_eigenvalue": 1.0
+      },
+      {
+        "after_8_trace_distance": 0.14680064000000007,
+        "s": 0.2,
+        "step_decay_eigenvalue": 0.8
+      },
+      {
+        "after_8_trace_distance": 5.740875000000006e-05,
+        "s": 0.7,
+        "step_decay_eigenvalue": 0.30000000000000004
+      },
+      {
+        "after_8_trace_distance": 0.0,
+        "s": 1.0,
+        "step_decay_eigenvalue": 0.0
+      }
+    ],
+    "two completions differ on actual local marginal": {
+      "trace_distance": 0.4375
+    },
+    "underdetermined_parameters": [
+      "failure mixing s in [0,1]",
+      "clock rate gamma>0",
+      "a physical order or time parameter",
+      "network routing among junctions"
+    ]
+  },
+  "scope": "Conditional standard-QM CPTP extensions of the primary paper's selected P3 branch. Failure branches and auxiliary Poisson clock are forbidden or absent in the original ontology.",
+  "status": "PASS",
+  "test_count": 46
+}

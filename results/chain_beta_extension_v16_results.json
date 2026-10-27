@@ -1,0 +1,164 @@
+{
+  "program": "Chain Theory v16 \u2014 commutant/Choi classification of local outcome bridges",
+  "status": "Exact class of invariant outcome effects and explicit UCP map extensions; not unique; no derivation of beta function.",
+  "core_assumptions": [
+    "output invariance under every W=U\u2297conj(U) for U\u2208SU(3)",
+    "five labelled record outcomes with n=(30932,79,48,42,3)",
+    "trace calibration Tr(E_k)/9=n_k/31104",
+    "local effects on the joining C3\u2297C3 Hilbert space",
+    "separate exact selected Bell Kraus branch K=P in the sequential instrument"
+  ],
+  "alpha_candidate_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+  "alpha_candidate_decimal": 0.00729735256366226,
+  "commutant": "span{P3,I9-P3} for U\u2297conj(U); rank(P3)=1 and rank(F)=8",
+  "all_invariant_effects": "E_k=a_k P3+b_k F, a_k,b_k>=0, sum a=sum b=1; a_k+8b_k=9n_k/N",
+  "positive_record_trace_fraction": "43/7776",
+  "source_input_Bell_probability": "1/6",
+  "score_range_without_first_Bell_condition": {
+    "lower_exact": "5*sqrt(6)/55296 + 5*sqrt(2)/3456 + 35*sqrt(3)/27648 + 395/165888",
+    "upper_exact": "sqrt(6)/6912 + sqrt(2)/432 + 7*sqrt(3)/3456 + 79/20736",
+    "lower_decimal": 0.006841268028433369,
+    "upper_decimal": 0.01094602884549339
+  },
+  "Bell_first_zero_score_upper_bound": {
+    "exact": "5*sqrt(6)/55296 + 5*sqrt(2)/3456 + 35*sqrt(3)/27648 + 395/165888",
+    "decimal": 0.006841268028433369,
+    "gap_from_alpha_exact": "sqrt(6)/165888 + sqrt(2)/10368 + 7*sqrt(3)/82944 + 79/497664",
+    "minimum_extra_Bell_score_to_match_alpha": "sqrt(6)/27648 + sqrt(2)/1728 + 7*sqrt(3)/13824 + 79/82944"
+  },
+  "examples": {
+    "outside_Bell": {
+      "a_Bell": {
+        "0": "1",
+        "1": "0",
+        "sqrt2": "0",
+        "sqrt3": "0",
+        "sqrt6": "0"
+      },
+      "b_failure": {
+        "0": "6869/6912",
+        "1": "79/27648",
+        "sqrt2": "1/576",
+        "sqrt3": "7/4608",
+        "sqrt6": "1/9216"
+      },
+      "source_input_weighted_score_exact": "5*sqrt(6)/55296 + 5*sqrt(2)/3456 + 35*sqrt(3)/27648 + 395/165888",
+      "source_input_weighted_score_decimal": 0.006841268028433369,
+      "Bell_state_weighted_score_exact": "0",
+      "uniform_state_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+      "Bell_first_score_Bell_assigned_zero_exact": "5*sqrt(6)/55296 + 5*sqrt(2)/3456 + 35*sqrt(3)/27648 + 395/165888",
+      "Bell_first_score_Bell_assigned_zero_decimal": 0.006841268028433369,
+      "weighted_bell_success_probability": "1/6"
+    },
+    "scalar": {
+      "a_Bell": {
+        "0": "7733/7776",
+        "1": "79/31104",
+        "sqrt2": "1/648",
+        "sqrt3": "7/5184",
+        "sqrt6": "1/10368"
+      },
+      "b_failure": {
+        "0": "7733/7776",
+        "1": "79/31104",
+        "sqrt2": "1/648",
+        "sqrt3": "7/5184",
+        "sqrt6": "1/10368"
+      },
+      "source_input_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+      "source_input_weighted_score_decimal": 0.00729735256366226,
+      "Bell_state_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+      "uniform_state_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+      "Bell_first_score_Bell_assigned_zero_exact": "5*sqrt(6)/62208 + 5*sqrt(2)/3888 + 35*sqrt(3)/31104 + 395/186624",
+      "Bell_first_score_Bell_assigned_zero_decimal": 0.006081127136385217,
+      "weighted_bell_success_probability": "1/6"
+    },
+    "inside_Bell": {
+      "a_Bell": {
+        "0": "821/864",
+        "1": "79/3456",
+        "sqrt2": "1/72",
+        "sqrt3": "7/576",
+        "sqrt6": "1/1152"
+      },
+      "b_failure": {
+        "0": "1",
+        "1": "0",
+        "sqrt2": "0",
+        "sqrt3": "0",
+        "sqrt6": "0"
+      },
+      "source_input_weighted_score_exact": "sqrt(6)/6912 + sqrt(2)/432 + 7*sqrt(3)/3456 + 79/20736",
+      "source_input_weighted_score_decimal": 0.01094602884549339,
+      "Bell_state_weighted_score_exact": "sqrt(6)/1152 + sqrt(2)/72 + 7*sqrt(3)/576 + 79/3456",
+      "uniform_state_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+      "Bell_first_score_Bell_assigned_zero_exact": "0",
+      "Bell_first_score_Bell_assigned_zero_decimal": 0.0,
+      "weighted_bell_success_probability": "1/6"
+    },
+    "v15_correlated_twirl": {
+      "a_Bell": {
+        "0": "7733/7776",
+        "1": "1/432",
+        "sqrt2": "1/648",
+        "sqrt3": "49/31104",
+        "sqrt6": "1/10368"
+      },
+      "b_failure": {
+        "0": "7733/7776",
+        "1": "71/27648",
+        "sqrt2": "1/648",
+        "sqrt3": "329/248832",
+        "sqrt6": "1/10368"
+      },
+      "source_input_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 679*sqrt(3)/497664 + 419/165888",
+      "source_input_weighted_score_decimal": 0.007307649381702107,
+      "Bell_state_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 1/432 + 49*sqrt(3)/31104",
+      "uniform_state_weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+      "Bell_first_score_Bell_assigned_zero_exact": "5*sqrt(6)/62208 + 5*sqrt(2)/3888 + 1645*sqrt(3)/1492992 + 355/165888",
+      "Bell_first_score_Bell_assigned_zero_decimal": 0.006063965772985473,
+      "weighted_bell_success_probability": "1/6"
+    }
+  },
+  "choi_certificates": {
+    "outside_Bell": {
+      "Choi_dim": 279936,
+      "Choi_rank": 279764,
+      "min_Choi_eigenvalue": 0.0,
+      "Choi_PSD_certified_by_positive_blocks": true,
+      "Phi_of_identity_equals_identity": true,
+      "Phi_of_source_record_sector_has_effect_trace_9n_over_N": true
+    },
+    "scalar": {
+      "Choi_dim": 279936,
+      "Choi_rank": 279936,
+      "min_Choi_eigenvalue": 3.2150205761316875e-05,
+      "Choi_PSD_certified_by_positive_blocks": true,
+      "Phi_of_identity_equals_identity": true,
+      "Phi_of_source_record_sector_has_effect_trace_9n_over_N": true
+    },
+    "inside_Bell": {
+      "Choi_dim": 279936,
+      "Choi_rank": 278560,
+      "min_Choi_eigenvalue": 0.0,
+      "Choi_PSD_certified_by_positive_blocks": true,
+      "Phi_of_identity_equals_identity": true,
+      "Phi_of_source_record_sector_has_effect_trace_9n_over_N": true
+    },
+    "v15_correlated_twirl": {
+      "Choi_dim": 279936,
+      "Choi_rank": 279936,
+      "min_Choi_eigenvalue": 2.9301453352086262e-05,
+      "Choi_PSD_certified_by_positive_blocks": true,
+      "Phi_of_identity_equals_identity": true,
+      "Phi_of_source_record_sector_has_effect_trace_9n_over_N": true
+    }
+  },
+  "gauge_tests": {
+    "random_matched_SU3_trials": 80,
+    "maximum_fixed_effect_residual": 3.4123722924868417e-15,
+    "maximum_P3_residual": 1.0872794751101949e-15
+  },
+  "qualification": "The spectral-sector map is CP and unital; full equivariance under the original nontrivial matching action on all 31,104 record directions is NOT proved. Physical record-to-coupling identification remains unselected.",
+  "beta_function_status": "Still undefined: no scale dynamics or fermion propagation from the source axiom."
+}

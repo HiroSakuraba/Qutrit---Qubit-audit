@@ -1,0 +1,107 @@
+{
+  "scope": "Weak/strong theory audit; Chain Theory original paper October 23 2026; external PDG 2025/2026 benchmarks.",
+  "paper_source": "ChainTheoryAlpha.pdf, Letter eqs 3-7, Supplemental S3, S8, S9, S10.",
+  "alpha_candidate_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+  "alpha_candidate": 0.00729735256366226,
+  "external_inputs_not_chain_theory_predictions": {
+    "alpha_EM_MSbar_5flavor_MZ_inv": 127.93,
+    "sin2_thetaW_MSbar_MZ": 0.23122,
+    "alpha_s_MSbar_MZ": 0.118,
+    "alpha_s_uncertainty": 0.0009,
+    "MZ_GeV": 91.188,
+    "notes": "EM input is five-flavor MSbar as quoted PDG EW review; conversion to unbroken-SM electroweak couplings is illustrative at leading matching order. RG exercise one-loop with full SM matter and no thresholds above MZ."
+  },
+  "couplings_at_MZ": {
+    "alpha_em": 0.007816774798718049,
+    "alpha1_GUT_normalized": 0.016946275914908576,
+    "alpha2_weak": 0.033806655128094665,
+    "alpha3_strong": 0.118,
+    "g1": 0.4614685077878335,
+    "g2": 0.6517875095239734,
+    "g3": 1.2177157847767197,
+    "alpha_inverse": {
+      "alpha1": 59.01001524,
+      "alpha2": 29.579974600000003,
+      "alpha3": 8.474576271186441
+    }
+  },
+  "group_theory": {
+    "dim_SU3_adjoint": 8,
+    "dim_SU2_adjoint": 3,
+    "Tr_Y_squared_in_fundamental_SU5": "5/6",
+    "Tr_T3_squared_in_fundamental_SU5": "1/2",
+    "canonical_SU5_hypercharge_scaling": "sqrt(15)/5",
+    "unification_sin2_thetaW_at_unification_scale_conditional": "3/8",
+    "is_consequence_of_subgroup_alone": false
+  },
+  "conditional_chiral_anomalies": {
+    "isolated_link_as_single_left_chiral_quark_doublet": {
+      "SU3_cubic": "2",
+      "SU3_sq_U1": "1/6",
+      "SU2_sq_U1": "1/4",
+      "U1_cubic": "1/36",
+      "gravity_U1": "1",
+      "SU2_doublet_count": 3,
+      "SU2_Witten_anomaly_if_odd": true
+    },
+    "full_one_generation_SM_with_left_handed_conjugates": {
+      "SU3_cubic": "0",
+      "SU3_sq_U1": "0",
+      "SU2_sq_U1": "0",
+      "U1_cubic": "0",
+      "gravity_U1": "0",
+      "SU2_doublet_count": 4,
+      "SU2_Witten_anomaly_if_odd": false
+    },
+    "caveat": "The paper identifies a representation, not a dynamical chiral fermion spectrum. These are conditional consistency tests, not demonstrated anomalies of Chain Theory."
+  },
+  "SM_one_loop_b_coefficients_gut_normalized": {
+    "alpha1": "41/10",
+    "alpha2": "-19/6",
+    "alpha3": "-7"
+  },
+  "SM_one_loop_pairwise_crossings": {
+    "alpha1_alpha2": {
+      "log_mu_over_MZ": 25.446935633799928,
+      "mu_GeV": 10266003728703.414,
+      "common_alpha_inv": 42.40499231009174,
+      "third_alpha_inv": {
+        "alpha3": 36.8246154198103
+      }
+    },
+    "alpha1_alpha3": {
+      "log_mu_over_MZ": 28.605723209073883,
+      "mu_GeV": 241682625998593.88,
+      "common_alpha_inv": 40.34377201728508,
+      "third_alpha_inv": {
+        "alpha2": 43.996991723235105
+      }
+    },
+    "alpha2_alpha3": {
+      "log_mu_over_MZ": 34.59368574307147,
+      "mu_GeV": 9.63350922218968e+16,
+      "common_alpha_inv": 47.01486887162859,
+      "third_alpha_inv": {
+        "alpha1": 36.43641528831245
+      }
+    }
+  },
+  "simple_multiplicity_guesses": {
+    "alpha2_over_alphaEMatMZ": 4.32488539053715,
+    "alpha3_over_alphaEMatMZ": 15.09574,
+    "alpha3_over_alpha2": 3.4904370028000002,
+    "alpha2_over_alpha_candidate": 4.632728764735523,
+    "alpha3_over_alpha_candidate": 16.170247904368807,
+    "alpha_candidate_times_3": 0.02189205769098678,
+    "alpha_candidate_times_8": 0.05837882050929808,
+    "dimension_3_8_guesses_relative_error_alpha2": -0.3524334895588763,
+    "dimension_3_8_guesses_relative_error_alpha3": -0.5052642329720501
+  },
+  "limits": [
+    "SM beta function coefficients and matter representation content are externally supplied, not derived from Chain Theory.",
+    "Gauge-algebra isomorphism fixes structure constants and representations but not kinetic coefficients 1/g_i^2.",
+    "No inherent scale, propagator, chiral spectrum, Higgs mechanism or SU3 confinement in source construction.",
+    "One-loop crossing scale numbers are illustrative, not precise GUT tests; thresholds and higher loops omitted.",
+    "Do not compare alpha_cand at Q=0 directly to SU2 and SU3 coupling values at MZ as if same scale."
+  ]
+}

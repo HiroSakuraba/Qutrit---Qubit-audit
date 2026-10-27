@@ -1,0 +1,146 @@
+{
+  "program": "Chain Theory QED beta, v15 \u2014 local instrument and gauge-descent audit",
+  "status": "Source-motivated local CPTP instrument constructed; exact original alpha not recovered on source pure state; instrument not uniquely selected.",
+  "readout_model": "v11 172 record embedding and v14 Stinespring operator-frame bridge, then normalized trace over remote/read spectator factors",
+  "record_counts": {
+    "1": 79,
+    "sqrt2": 48,
+    "sqrt3": 42,
+    "sqrt6": 3
+  },
+  "alpha_candidate": 0.00729735256366226,
+  "max_residual_localization_vs_exact_formula": 1.5178830414797062e-18,
+  "symbolic_audit": {
+    "local_effect_spectra": {
+      "1": {
+        "symmetric_multiplicity_6": "1/432",
+        "antisymmetric_multiplicity_3": "31/10368"
+      },
+      "sqrt2": {
+        "symmetric_multiplicity_6": "1/648",
+        "antisymmetric_multiplicity_3": "1/648"
+      },
+      "sqrt3": {
+        "symmetric_multiplicity_6": "49/31104",
+        "antisymmetric_multiplicity_3": "7/7776"
+      },
+      "sqrt6": {
+        "symmetric_multiplicity_6": "1/10368",
+        "antisymmetric_multiplicity_3": "1/10368"
+      }
+    },
+    "coarse_nonzero_effect": "43/7776",
+    "zero_effect": "7733/7776",
+    "source_state_scores": {
+      "maximally_mixed": {
+        "swap_expectation_exact": "1/3",
+        "sector_probabilities_exact": {
+          "1": "79/31104",
+          "sqrt2": "1/648",
+          "sqrt3": "7/5184",
+          "sqrt6": "1/10368"
+        },
+        "weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+        "weighted_score_numeric": 0.00729735256366226
+      },
+      "original_unjoined": {
+        "swap_expectation_exact": "1/2",
+        "sector_probabilities_exact": {
+          "1": "103/41472",
+          "sqrt2": "1/648",
+          "sqrt3": "175/124416",
+          "sqrt6": "1/10368"
+        },
+        "weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 175*sqrt(3)/124416 + 103/41472",
+        "weighted_score_numeric": 0.007338539835821646
+      },
+      "selected_Bell": {
+        "swap_expectation_exact": "1",
+        "sector_probabilities_exact": {
+          "1": "1/432",
+          "sqrt2": "1/648",
+          "sqrt3": "49/31104",
+          "sqrt6": "1/10368"
+        },
+        "weighted_score_exact": "sqrt(6)/10368 + sqrt(2)/648 + 1/432 + 49*sqrt(3)/31104",
+        "weighted_score_numeric": 0.007462101652299803
+      }
+    },
+    "delta_initial_minus_alpha_exact": "-7/124416 + 7*sqrt(3)/124416",
+    "delta_initial_minus_alpha_numeric": 4.118727215938578e-05,
+    "sequential_join_plus_records": {
+      "original_unjoined": {
+        "sector_probabilities_exact": {
+          "1": "29/13824",
+          "sqrt2": "5/3888",
+          "sqrt3": "427/373248",
+          "sqrt6": "5/62208"
+        },
+        "score_exact": "5*sqrt(6)/62208 + 5*sqrt(2)/3888 + 427*sqrt(3)/373248 + 29/13824",
+        "score_numeric": 0.006094856227105012
+      },
+      "selected_Bell": {
+        "sector_probabilities_exact": {
+          "1": "0",
+          "sqrt2": "0",
+          "sqrt3": "0",
+          "sqrt6": "0"
+        },
+        "score_exact": "0",
+        "score_numeric": 0.0
+      },
+      "maximally_mixed": {
+        "sector_probabilities_exact": {
+          "1": "71/31104",
+          "sqrt2": "1/729",
+          "sqrt3": "329/279936",
+          "sqrt6": "1/11664"
+        },
+        "score_exact": "sqrt(6)/11664 + sqrt(2)/729 + 329*sqrt(3)/279936 + 71/31104",
+        "score_numeric": 0.006468230157851171
+      }
+    },
+    "matched_frame_witness": {
+      "U": "diag(i,-i,1)",
+      "P3_invariant_exact": true,
+      "squared_swap_difference_HS": "16",
+      "sector_effect_difference_HS_squared": {
+        "1": "49/26873856",
+        "sqrt2": "0",
+        "sqrt3": "49/26873856",
+        "sqrt6": "0"
+      },
+      "fixed_effects_invariant_under_this_matched_frame": false,
+      "jointly_transported_effects_are_covariant": true
+    },
+    "misaligned_support_state_with_exact_original_alpha": {
+      "cos_theta_squared": "1/3",
+      "swap_expectation": "1/3",
+      "score_matches_alpha_exact": true,
+      "caution": "The relative support orientation is an added state choice, not an axiom-selected state."
+    }
+  },
+  "physical_instrument": {
+    "physical_join_system_dim": 9,
+    "remote_read_qubits_dim": 4,
+    "unread_pair_dim": 6,
+    "instrument_outcomes": [
+      "Bell",
+      "1",
+      "sqrt2",
+      "sqrt3",
+      "sqrt6",
+      "record_zero"
+    ],
+    "all_kraus_act_only_on_joining_qutrits": true,
+    "selected_Kraus_is_exact_P3": true,
+    "selected_probability": 0.16666666666666663,
+    "trace_preserving_completeness_max_error": 1.1102230246251565e-16,
+    "unconditional_no_signaling_max_error": 2.7755575615628914e-17,
+    "random_correlated_matching_trials": 32,
+    "max_transport_probability_error": 2.886579864025407e-15,
+    "max_transport_completeness_error": 5.706274634002805e-15,
+    "max_transport_no_signaling_error": 1.6820474869171018e-15
+  },
+  "beta_status": "No momentum or scale dependence derived, hence no independently determined QED beta function."
+}

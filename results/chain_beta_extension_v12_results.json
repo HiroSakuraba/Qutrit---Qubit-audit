@@ -1,0 +1,100 @@
+{
+  "research_scope": "v12 mathematical instrument on operator-HS readout space; not yet a physical 216D CP instrument",
+  "source_dimensions": {
+    "physical_three_arm_state_space": 216,
+    "physical_operator_space": 46656,
+    "specified_readout_operator_space": 31104,
+    "record_rank": 172
+  },
+  "spectral_instrument": {
+    "outcome_multiplicities": {
+      "0": 30932,
+      "1": 79,
+      "sqrt2": 48,
+      "sqrt3": 42,
+      "sqrt6": 3
+    },
+    "outcome_probabilities_at_tau": {
+      "0": 0.9944701646090535,
+      "1": 0.002539866255144033,
+      "sqrt2": 0.0015432098765432098,
+      "sqrt3": 0.0013503086419753086,
+      "sqrt6": 9.645061728395061e-05
+    },
+    "weighted_mean_at_tau": 0.00729735256366226,
+    "alpha_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+    "alpha_numeric": 0.00729735256366226,
+    "kraus_completeness": "sum_w P_w=I_31104",
+    "note": "These CP-TP Kraus operators act on an abstract HS Hilbert space, not automatically on physical 216D density matrices."
+  },
+  "matched_frame_covariance": {
+    "three_pair_join_stabilized": true,
+    "max_outcome_probability_covariance_error": 7.771561172376096e-16,
+    "max_postmeasurement_branch_covariance_error": 6.661338147750939e-16,
+    "commutator_selected_outcome_probability_before": 0.9999999999999997,
+    "after_frame_transform_without_transport": 2.4456867913920681e-32,
+    "after_covariant_instrument_transport": 0.9999999999999989,
+    "fixed_frame_missing_sector_probability": 0.9999999999999996
+  },
+  "no_go_probability": {
+    "tr_M": 226.97685414015095,
+    "max_trace_yes_effect_supported_on_172": 172,
+    "minimum_rank_of_binary_effect_matching_alpha_at_tau": 227,
+    "minimum_new_support_directions_if_original_172_all_retained": 55,
+    "nonunique_binary_POVMs": [
+      {
+        "t_records": 0.0,
+        "a_complement": 0.007337930109276831,
+        "probability_at_tau": 0.00729735256366226
+      },
+      {
+        "t_records": 0.25,
+        "a_complement": 0.005947783982288599,
+        "probability_at_tau": 0.00729735256366226
+      },
+      {
+        "t_records": 0.5,
+        "a_complement": 0.004557637855300367,
+        "probability_at_tau": 0.00729735256366226
+      },
+      {
+        "t_records": 0.00729735256366226,
+        "a_complement": 0.00729735256366226,
+        "probability_at_tau": 0.00729735256366226
+      },
+      {
+        "t_records": 0.75,
+        "a_complement": 0.0031674917283121343,
+        "probability_at_tau": 0.007297352563662259
+      },
+      {
+        "t_records": 1.0,
+        "a_complement": 0.001777345601323902,
+        "probability_at_tau": 0.007297352563662259
+      }
+    ]
+  },
+  "commutator_sector_twirling": {
+    "projector_rank_before": 3,
+    "twirled_effect_rank": 5,
+    "eigenvalues_and_multiplicities": {
+      "1/2": 4,
+      "1": 1,
+      "0": 1
+    },
+    "trace_before_and_after": "3",
+    "HS_squared_change_exact": "1"
+  },
+  "physical_CP_failure_of_naive_superoperator": {
+    "A": "sigma_z/sqrt(2)",
+    "input": "|0><0|",
+    "output": "diag(1/2,-1/2)",
+    "output_positive": false
+  },
+  "open": [
+    "No canonical map from the physical 216D state to a readout-space density operator was specified.",
+    "The original model does not define a physical CP instrument for the abstract 172 weighted operators.",
+    "Gauge covariance of transported measurement operators does not select them uniquely.",
+    "No QED momentum dependence, beta coefficient, or spacetime dynamics is derived."
+  ]
+}

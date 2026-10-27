@@ -1,0 +1,89 @@
+{
+  "research_question": "Does the source record readout canonically become a physical measurement on the 216D three-link system?",
+  "status": "Constructive unital CP bridge exists conditional on v11 embedding; it is not uniquely selected and does not recover alpha for the source pure states.",
+  "source": "ChainTheoryAlpha.pdf supplemental S6-S8; v11 record embedding",
+  "frame_calculation": {
+    "full_readout_dimension": 31104,
+    "physical_dimension": 216,
+    "frame_constant_exact": 144,
+    "qutrit_traceless_casimir": "8/3",
+    "qubit_traceless_casimir": "3/2",
+    "unread_connected_casimir": "4",
+    "complete_positivity": "Proven by isometric Stinespring compression",
+    "unitality": "Phi(I_R)=I_phys (144I/144)"
+  },
+  "alpha_candidate": 0.00729735256366226,
+  "record_weight_multiplicities": {
+    "1": 79,
+    "sqrt2": 48,
+    "sqrt3": 42,
+    "sqrt6": 3
+  },
+  "physical_state_expectations": {
+    "initial_unjoined_three_pairs": {
+      "sector_probabilities": {
+        "1": 0.01117621527777777,
+        "sqrt2": 0.006944444444444437,
+        "sqrt3": 0.006329571759259252,
+        "sqrt6": 0.0004340277777777774,
+        "0": 0.9751157407407408
+      },
+      "score": 0.03302342926119737,
+      "exact_nonzero_probabilities": {
+        "1": "103/9216",
+        "sqrt2": "1/144",
+        "sqrt3": "175/27648",
+        "sqrt6": "1/2304"
+      }
+    },
+    "postselected_joined_three_pairs": {
+      "sector_probabilities": {
+        "1": 0.007957175925925925,
+        "sqrt2": 0.009259259259259259,
+        "sqrt3": 0.007233796296296292,
+        "sqrt6": 0.0002893518518518519,
+        "0": 0.9752604166666666
+      },
+      "score": 0.0342898130578542,
+      "exact_nonzero_probabilities": {
+        "1": "55/6912",
+        "sqrt2": "1/108",
+        "sqrt3": "25/3456",
+        "sqrt6": "1/3456"
+      }
+    },
+    "maximally_mixed_physical_216D": {
+      "score": 0.00729735256366226
+    }
+  },
+  "maximum_eigenvalue_of_nonzero_effect": 0.025318287037037028,
+  "gauge_covariance": {
+    "trials": 12,
+    "max_probability_covariance_residual": 1.1102230246251565e-16,
+    "transported_effects_transform_by_conjugation": true
+  },
+  "covariant_CP_nonuniqueness": {
+    "maximally_mixed_effect_probabilities": {
+      "1": 0.002539866255144033,
+      "sqrt2": 0.0015432098765432098,
+      "sqrt3": 0.0013503086419753086,
+      "sqrt6": 9.645061728395061e-05,
+      "0": 0.9944701646090535
+    },
+    "alpha_at_t_0": 0.00729735256366226,
+    "alpha_at_t_half": 0.020160390912429816,
+    "alpha_at_t_1": 0.03302342926119737,
+    "family": "Phi_t(X)=t Phi(X)+(1-t) tr_R(X)/31104 I_phys, 0<=t<=1"
+  },
+  "locality": {
+    "exact_unread_remote_qubit_X_commutator_HS_squared": "8/9",
+    "local_Alice_only_effect_possible_for_this_POVM": false,
+    "reason": "The positive nonzero-record effects act nontrivially on the unread remote qubit f.",
+    "normalized_unread_connected_eigenvalues": {
+      "sqrt(3)/2": 1,
+      "-sqrt(3)/6": 3,
+      "0": 2
+    }
+  },
+  "beta_function_status": "Still not defined by original source; no spacetime, propagator or scale-dependent flow derived."
+}
