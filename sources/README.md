@@ -2,7 +2,7 @@
 
 The audit concerns A. D. Wissner-Gross, **"A Parameter-Free Candidate for the Fine-Structure Constant from Entangled Qudits"**, dated 23 October 2026.
 
-The original source supplied for the audit was the file **\`ChainTheoryAlpha.pdf\`**. The original PDF is **not copied into this GitHub repository** because the available connected GitHub upload route accepts text content rather than a raw binary attachment. A local downloadable research archive from the conversation contains the PDF. To publish the PDF here, upload the original file to \`sources/ChainTheoryAlpha.pdf\` using a binary-capable Git client and confirm redistribution permissions.
+The original source supplied for the audit was the file **`ChainTheoryAlpha.pdf`**. An [automatically extracted text rendering](ChainTheoryAlpha_extracted.txt) is included to aid searching, but it is **not a faithful mathematical substitute for the original PDF**. The original binary PDF is **not copied into this repository** because the connected upload route accepts text rather than binary attachments. A local downloadable research archive from the conversation contains the PDF. To publish the PDF here, upload the original file to `sources/ChainTheoryAlpha.pdf` using a binary-capable Git client and confirm redistribution permissions.
 
 Read the original paper's Letter, supplementary S1–S12, and the accompanying Lean artifact before attributing the audits' conditional examples to the author. In particular, the source verifies weighted-record arithmetic but does not construct an electromagnetic propagator, an independent QED beta function, or strong/weak couplings.
 
