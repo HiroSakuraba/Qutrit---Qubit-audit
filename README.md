@@ -6,14 +6,17 @@ Independent mathematical, operational, and phenomenological checks of A. D. Wiss
 
 ## Headline claim and status
 
-The source proposes
-[
-alpha_mathrm{candidate}=rac{79+48sqrt{2}+42sqrt{3}+3sqrt{6}}{31104}
-approx0.00729735256366226,
-]
-equivalently (alpha_mathrm{candidate}^{-1}approx137.035999189566).
+The source proposes the following **candidate**, not an independently established physical coupling:
 
-The four sector multiplicities (79,48,42,3) and readout dimension (31104=24	imes36	imes36) follow from the paper's stated record enumeration. **That arithmetic does not by itself establish that this quantity is the electromagnetic coupling.** The original photon identification is explicitly conjectural. The weak/strong audit (v22) likewise finds no parameter-free prediction of (alpha_2) or (alpha_s).
+\[
+\alpha_{\mathrm{candidate}}
+=\frac{79+48\sqrt{2}+42\sqrt{3}+3\sqrt{6}}{31104}
+\approx 0.00729735256366226,
+\]
+
+with inverse approximately **137.035999189566**.
+
+The four sector multiplicities (79, 48, 42, 3) and the readout dimension \(31104=24\times36\times36\) come from the source's record enumeration. **The arithmetic does not establish that the result is electromagnetism.** The photon identification is conjectural. The weak/strong audit (v22) does not derive \(\alpha_2\) or \(\alpha_s\).
 
 ### Audit outcomes
 

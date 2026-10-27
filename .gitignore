@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+# Execution regenerates original-named output files under scripts/;
+# source of historical run data is the committed results/ directory.
