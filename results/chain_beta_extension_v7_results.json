@@ -1,0 +1,80 @@
+{
+  "scope": "v7 covariance/uniqueness test only; does not derive beta function",
+  "aligned_versus_rotated_fixed_P3": {
+    "p_fixed": "1/12",
+    "remote": "|00>",
+    "remote_concurrence": "0"
+  },
+  "exact_matching_twirl": {
+    "finite_rotations": 24,
+    "twirled_join": "I_9/9",
+    "mean_success_probability": "1/9",
+    "Bob_conditional_state_after_forgetting_relative_frame": "I_4/4"
+  },
+  "fixed_rank_one_join_universal_no_go_stress": {
+    "fixed_bra_ranks_tested": [
+      1,
+      2,
+      3
+    ],
+    "tests_per_rank": 128,
+    "max_null_column_norm": 2.0509122257543783e-16,
+    "max_concurrence_after_forced_rank_drop": 1.0226599528237897e-15,
+    "min_strictly_positive_branch_probability": 0.017826410538735262,
+    "theorem": "No nonzero fixed rank-one Bell-outcome bra is universally entanglement-preserving on all independent 2-dimensional supports."
+  },
+  "transported_join_and_instrument": {
+    "random_unitary_trials": 128,
+    "covariant_join_probability": "1/6 for every pair of support frames",
+    "covariant_join_concurrence": "1 for every pair of support frames",
+    "moving_Kraus_probabilities": [
+      "1/6",
+      "1/12",
+      "1/4",
+      "1/4",
+      "1/4",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "max_probability_error": 4.996003610813204e-16,
+    "max_branch_covariance_error": 7.771561172376096e-16,
+    "max_no_signalling_density_residual": 1.1330341323622986e-15,
+    "max_pair_concurrence_error": 8.881784197001252e-16,
+    "fixed_join_probability_sample_range": [
+      0.08356918921593717,
+      0.15877256995671896
+    ],
+    "fixed_join_concurrence_sample_range": [
+      0.10610028251253083,
+      0.9987632196201067
+    ]
+  },
+  "unoccupied_complement_ambiguity": {
+    "same_input_links": true,
+    "different_rank_3_join_projectors": true,
+    "join_state_overlap": "1/3",
+    "projector_trace_distance": "2*sqrt(2)/3",
+    "selected_branch_amplitudes_identical": true,
+    "conclusion": "Input pair states alone do not determine the join on the unused third qutrit directions."
+  },
+  "su3_epsilon_volume_form_extension": {
+    "trials": 128,
+    "max_SU3_equivariance_residual": 6.90585550441717e-16,
+    "max_phase_transform_residual": 3.775166431889533e-16,
+    "volume_form_extension_is_unique_given_phased_3x2_isometry": true,
+    "volume_form_extension_is_not_a_function_of_unphased_pair_ray": true,
+    "pair_ray_phase_example": "phi=pi/3 on first link",
+    "join_projector_trace_distance_for_identical_input_pair_rays": "2*sqrt(2)/3",
+    "selected_output_remains_a_Bell_pair": true,
+    "interpretation": "The SU(3) epsilon tensor fixes the complement from a phased link amplitude, but the original projective pair state cannot fix the phase of that amplitude."
+  },
+  "projective_ray_stabilizer_no_go": {
+    "stabilizer": "G_phi=diag(exp(i phi),exp(i phi),exp(-2i phi)) in SU(3)",
+    "G_pi_over_3_changes_input_pair_only_by_global_phase": true,
+    "full_join_projector_trace_distance": "2*sqrt(2)/3",
+    "projective_ray_equivariance_obstruction": "Any rank-three maximally entangled join projector equivariantly selected solely from these input rays would need to be invariant under G_phi on one qutrit; its vector cannot span both inequivalent eigenvalue sectors, so Schmidt rank <= 2."
+  },
+  "status": "All exact-symbolic and seeded complex NumPy assertions passed"
+}

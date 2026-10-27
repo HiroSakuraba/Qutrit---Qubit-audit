@@ -1,0 +1,150 @@
+{
+  "scope": "Exact representation/operational-completion tests; not a QED beta calculation.",
+  "source": "Wissner-Gross (2026), ChainTheoryAlpha.pdf, esp. S1 and S7.",
+  "exact_qutrit_qubit_operational_probe": {
+    "link_type": "(3,2) crossed with (3,2)",
+    "joint_success_probability_under_Born": "1/6",
+    "remote_before": "Matrix([\n[1/4,   0,   0,   0],\n[  0, 1/4,   0,   0],\n[  0,   0, 1/4,   0],\n[  0,   0,   0, 1/4]])",
+    "remote_after_conditioned": "Matrix([\n[1/2, 0, 0, 1/2],\n[  0, 0, 0,   0],\n[  0, 0, 0,   0],\n[1/2, 0, 0, 1/2]])",
+    "trace_distance_conditional_vs_unconditioned": "3/4",
+    "bob_bell_test_probability_if_no_join": "1/4",
+    "bob_bell_test_probability_if_conditioned_join": "1",
+    "bob_bell_test_probability_in_other_measurement_branch": "1/10",
+    "bob_bell_test_probability_if_unconditioned_complete_measurement": "1/4",
+    "success_plus_failure_identity": true,
+    "interpretation": "Operational signalling only if the normalized branch is freely selectable and deterministic with independent A/B subsystems; neither locality nor freedom of choice is defined by source."
+  },
+  "all_join_orderings": {
+    "results": [
+      {
+        "d": 2,
+        "links": 3,
+        "number_of_orderings": 2,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 7.850462293418876e-17,
+        "amplitude_factor": "1/4",
+        "joint_Born_branch_probability": "1/16"
+      },
+      {
+        "d": 2,
+        "links": 4,
+        "number_of_orderings": 6,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 5.887846720064156e-17,
+        "amplitude_factor": "1/8",
+        "joint_Born_branch_probability": "1/64"
+      },
+      {
+        "d": 2,
+        "links": 5,
+        "number_of_orderings": 24,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 3.925231146709438e-17,
+        "amplitude_factor": "1/16",
+        "joint_Born_branch_probability": "1/256"
+      },
+      {
+        "d": 3,
+        "links": 3,
+        "number_of_orderings": 2,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 7.211110073938365e-17,
+        "amplitude_factor": "1/9",
+        "joint_Born_branch_probability": "1/81"
+      },
+      {
+        "d": 3,
+        "links": 4,
+        "number_of_orderings": 6,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 3.6055550369691825e-17,
+        "amplitude_factor": "1/27",
+        "joint_Born_branch_probability": "1/729"
+      },
+      {
+        "d": 3,
+        "links": 5,
+        "number_of_orderings": 24,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 1.3520831388634434e-17,
+        "amplitude_factor": "1/81",
+        "joint_Born_branch_probability": "1/6561"
+      },
+      {
+        "d": 4,
+        "links": 3,
+        "number_of_orderings": 2,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 0.0,
+        "amplitude_factor": "1/16",
+        "joint_Born_branch_probability": "1/256"
+      },
+      {
+        "d": 4,
+        "links": 4,
+        "number_of_orderings": 6,
+        "all_orderings_yield_same_unnormalized_endpoint_state": true,
+        "max_Frobenius_error": 0.0,
+        "amplitude_factor": "1/64",
+        "joint_Born_branch_probability": "1/4096"
+      }
+    ],
+    "interpretation": "For disjoint virtual-copy Bell contractions, a final tensor-network state provides no intrinsic order of the joins; this does not prove all possible overlapping read operations commute."
+  },
+  "matched_basis_invariance": {
+    "cases": [
+      {
+        "d": 2,
+        "test_seed": 619,
+        "residual": 7.939715088986645e-16
+      },
+      {
+        "d": 2,
+        "test_seed": 651,
+        "residual": 2.6342145466020017e-16
+      },
+      {
+        "d": 2,
+        "test_seed": 717,
+        "residual": 1.1421248619660837e-16
+      },
+      {
+        "d": 3,
+        "test_seed": 919,
+        "residual": 3.044841135822302e-16
+      },
+      {
+        "d": 3,
+        "test_seed": 951,
+        "residual": 3.3465291600591484e-16
+      },
+      {
+        "d": 3,
+        "test_seed": 1017,
+        "residual": 4.510816611330645e-16
+      },
+      {
+        "d": 4,
+        "test_seed": 1219,
+        "residual": 5.686438082669393e-16
+      },
+      {
+        "d": 4,
+        "test_seed": 1251,
+        "residual": 3.0655543472647587e-16
+      },
+      {
+        "d": 4,
+        "test_seed": 1317,
+        "residual": 2.4077834740674263e-16
+      }
+    ],
+    "interpretation": "Matchings U tensor U-bar are gauge/basis transformations on the Bell state, not a nontrivial propagation law."
+  },
+  "nonunique_extended_hamiltonians": {
+    "two_bell_state_preserving_unitary_extensions_are_distinct": true,
+    "norm_difference": 1.1878328486336238,
+    "caveat": "Hamiltonian and off-axiom disturbances are ADDITIONS, not source-derived states; on the axiom pair state these completions are indistinguishable."
+  },
+  "status": "All finite analytic and numeric checks passed. Conditional locality/choice assumption remains external."
+}

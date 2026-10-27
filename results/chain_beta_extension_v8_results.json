@@ -1,0 +1,52 @@
+{
+  "program": "ChainTheory beta v8",
+  "source": "ChainTheoryAlpha.pdf",
+  "status": "conditional mathematical tests; no beta derivation",
+  "exact_join": {
+    "projective_ray_stabilizer": "G=diag(exp(i*pi/3),exp(i*pi/3),exp(-2*i*pi/3)) in SU(3)",
+    "identical_projective_input": true,
+    "full_join_projector_changed": true,
+    "full_join_trace_distance": "2*sqrt(2)/3",
+    "occupied_block_difference": "zero exactly",
+    "full_qutrit_join_success": "1/6",
+    "support_only_join_success": "1/4",
+    "both_selected_remote_states": "|omega_2>",
+    "central_generator_Q_on_link": "i*I_6 (not Q_em)"
+  },
+  "ray_stabilizer_twirl": {
+    "twirl_group": "three phase representatives phi=0,2*pi/9,4*pi/9",
+    "twirled_effect": "E=(2/3)|omega2_occ><omega2_occ|+(1/3)|22><22|",
+    "rank": 2,
+    "purity": "5/9",
+    "same_restricted_effect_on_occupied_block": true,
+    "original_input_probability": "1/6",
+    "original_input_conditional_remote_state": "|omega_2>",
+    "rotated_support_example_probability": "1/12",
+    "rotated_support_example_remote_state": "|00> (product)",
+    "finite_phase_twirling_residual": 1.1321393454078252e-16,
+    "qualification": "E is a mixed effect, not a rank-one qutrit Bell projector"
+  },
+  "64_record_sector": {
+    "qutrit_two_slot_sector_size": 64,
+    "symmetric_swap_eigenvectors": 36,
+    "antisymmetric_swap_eigenvectors": 28,
+    "sector_trace": "28+36*sqrt(3)",
+    "independent_ray_gauge_adjoint": "diag(+1,+1,-1,-1,-1,-1,+1,+1)",
+    "adjoint_numeric_residual": 2.9373740229761033e-16,
+    "gauge_changed_M_HS_squared": "32*(sqrt(3)-1)^2",
+    "unchanged_trace": true,
+    "matched_correlated_gauge_preserves_swap": true,
+    "fixed_probe_before": "sqrt(3)",
+    "fixed_probe_after": "(1+sqrt(3))/2",
+    "cotransported_probe_expectation": "sqrt(3)",
+    "qualification": "64-direction sub-sector only; not a full transport construction of all 172 record operators"
+  },
+  "random_covariant_inputs": {
+    "random_SU3_support_pairs": 128,
+    "support_only_join_success": "1/4",
+    "transformed_full_join_success": "1/6",
+    "maximum_probability_and_output_error": 1.7087017432666358e-15,
+    "maximum_pair_ray_phase_residual": 5.211104702062704e-16,
+    "caveat": "Relative identification of the two qubit Schmidt bases is fixed in this test."
+  }
+}

@@ -1,0 +1,19 @@
+Two-qubit Clifford + heat-kernel tensors:
+  F^2= 2 orbital= -2/3 spin= 2 ratio= 2/3
+  F^2= 174 orbital= -58 spin= 174 ratio= 2/3
+Z_K gauge-matter test 3 {'weyl': np.float64(6.740105962128839e-16), 'local0': 9.453208419344607e-16, 'local1': 9.18873053048877e-16, 'commutation': 0.0, 'hermiticity': 0.0, 'orderK': 1.591534813586587e-15}
+Z_K gauge-matter test 5 {'weyl': np.float64(2.054026739179923e-16), 'local0': 3.1401849173675503e-16, 'local1': 2.830524433501838e-16, 'commutation': 0.0, 'hermiticity': 0.0, 'orderK': 4.965068306494546e-16}
+Z_K gauge-matter test 7 {'weyl': np.float64(6.969805068900265e-16), 'local0': 9.678699938266253e-16, 'local1': 1.0114613123884174e-15, 'commutation': 0.0, 'hermiticity': 0.0, 'orderK': 2.5010838569247817e-15}
+Z_K gauge-matter test 11 {'weyl': np.float64(5.14353278613179e-16), 'local0': 6.377745716588144e-16, 'local1': 5.768888059150692e-16, 'commutation': 0.0, 'hermiticity': 0.0, 'orderK': 1.5471771170683006e-15}
+4D naive/Wilson Z_K background {'K': 5, 'wilson_r': 0, 'covariance': 1.1474912898014144e-16, 'logdet': 0.0, 'phase': 1.6439175459749098e-15}
+4D naive/Wilson Z_K background {'K': 5, 'wilson_r': 1, 'covariance': 1.3903897042875704e-16, 'logdet': 0.0, 'phase': 8.31929488518066e-18}
+4D naive/Wilson Z_K background {'K': 7, 'wilson_r': 0, 'covariance': 1.4729110681636722e-16, 'logdet': 1.9539925233402755e-14, 'phase': 2.3618347721471097e-15}
+4D naive/Wilson Z_K background {'K': 7, 'wilson_r': 1, 'covariance': 3.1290709135780634e-16, 'logdet': 0.0, 'phase': 5.025239507111716e-17}
+Same qudit lattice, gauge symmetry; massless tastes naive/Wilson: {0: 16, 1: 1}
+Landau spectrum heat trace series: 4 + 4*x**2/3 - 4*x**4/45 + 8*x**6/945 + O(x**8)
+Extracted a4 per B^2 from heat trace: [(0.4, 1.319324418321882), (0.2, 1.3297912687894484), (0.1, 1.3324452901596116), (0.05, 1.3331111640077606), (0.025, 1.3332777810845184)]
+Single SM generation hypercharge-squared Weyl traces: {'Q_L': 1/6, 'u_R': 4/3, 'd_R': 1/3, 'L_L': 1/2, 'e_R': 1}
+Single-generation nonabelian Dynkin index sums SU2, SU3: 2 2
+Conditional complete SM one-loop b_Y, b_2, b_3: (41/6, -19/6, -7)
+CONDITIONAL DIRAC RESULT: beta(e)=e^3/(12*pi^2), beta(alpha)=2*alpha^2/(3*pi)
+ALL EXTENSION TESTS PASSED

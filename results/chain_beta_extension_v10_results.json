@@ -1,0 +1,61 @@
+{
+  "program": "Chain Theory QED beta, v10: relational three-copy transport / holonomy",
+  "date": "2026-10-24",
+  "source": "ChainTheoryAlpha.pdf supplemental S1 S7 S8",
+  "tests": {
+    "exact_symbolic": {
+      "projector_rank": 3,
+      "projector_distance_squared": 2,
+      "weighted_trace": "3*sqrt(6)",
+      "fixed_space_weighted_trace": "2*sqrt(6)",
+      "SU2_twist_wilson_trace": "sqrt(2)",
+      "SO3_twist_wilson_trace": 1
+    },
+    "link_stabilizer": {
+      "local_pair_ket_stabilized": true,
+      "fixed_record_projector_HS_distance_squared": 1.9999999999999996,
+      "transported_record_projector_rank": 3
+    },
+    "three_copy_and_holonomy": {
+      "trials": 60,
+      "max_three_pair_ket_invariance_error": 1.1419819468122483e-15,
+      "max_pure_gauge_holonomy_error": 1.5796299011604986e-15,
+      "max_twisted_holonomy_covariance_error": 1.6382844595789988e-15,
+      "max_twisted_wilson_trace_error": 1.5895974606912448e-15,
+      "flat_SU2_wilson_trace": 2.0,
+      "twisted_SU2_wilson_trace": 1.4142135623730951,
+      "flat_SO3_wilson_trace": 3.0,
+      "twisted_SO3_wilson_trace": 1.0,
+      "caveat": "Triangle transports are added relational labels, not links specified in the source three-arm object."
+    },
+    "covariant_difference_projector": {
+      "trials": 70,
+      "max_projector_covariance_error": 1.2477073723027157e-15,
+      "max_projector_idempotence_error": 1.2953674497130497e-15,
+      "max_rank_trace_error": 0,
+      "spectrum": "three eigenvalues 1, three 0",
+      "weighted_trace": "3 sqrt(6) independent of relative transport"
+    },
+    "full_172_and_unread_link": {
+      "original_record_count": 172,
+      "weighted_trace": 226.976854140151,
+      "readout_alpha": 0.007297352563662262,
+      "two_read_arm_covariant_trace_error": 1.4210854715202004e-13,
+      "unread_connected_dimension": 24,
+      "unread_test_factor_overlap_squared": 0.22601446670977107,
+      "illustrative_full_record_operator_HS_shift_squared_due_only_to_unread_matching": 493.802770239166,
+      "scope": "Unchanged 172-record spectrum under transported two-arm action; unread-link result is a model embedding, not proof of gauge descent for the source exact readout."
+    },
+    "partial_isometry_completion": {
+      "intersection_support_dimension": 1,
+      "overlap_rank": 1,
+      "singular_values": [
+        1.0,
+        0.0
+      ],
+      "distinct_unitary_extensions_tested": 4,
+      "result": "Support-overlap polar transport is not a uniquely completed U(2) connection at rank-deficient overlaps."
+    }
+  },
+  "verdict": "The pair axioms allow a gauge-covariant family of record spaces once a connection is provided; they do not define or uniquely select a three-copy connection or its loop holonomy. No beta function follows."
+}

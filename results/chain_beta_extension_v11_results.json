@@ -1,0 +1,54 @@
+{
+  "description": "v11 source-motivated full-31104 operator-HS embedding and gauge-action audit",
+  "source_verification": {
+    "source_unread_link_dimension": 24,
+    "source_read_arm_dimension": 1296,
+    "full_readout_dimension": 31104,
+    "weighted_record_rank": 172,
+    "record_multiplicities": {
+      "1": 79,
+      "sqrt(2)": 48,
+      "sqrt(3)": 42,
+      "sqrt(6)": 3
+    },
+    "weighted_trace": 226.97685414015095,
+    "alpha_candidate": 0.00729735256366226,
+    "full_record_array_shape": [
+      31104,
+      172
+    ],
+    "max_full_column_norm_error": 2.886579864025407e-15,
+    "subset_full_gram_error": 2.2834760194567408e-15
+  },
+  "connected_unread": {
+    "tr_C_squared_exact": "3/4",
+    "C_entries_exact": "Matrix([[1/4, 0, 0, 1/2, 0, 0], [0, -1/4, 0, 0, 0, 0], [0, 0, -1/4, 0, 0, 0], [1/2, 0, 0, 1/4, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]])",
+    "coordinate_reconstruction_error": 3.8459253727671276e-16,
+    "passive_matched_frame_covariance_error": 2.9024711135640665e-16
+  },
+  "matchings": {
+    "independent_single_read_matched_link_stabilizer_projector_HS_squared": 3.9999999999999982,
+    "fixed_subspace_reprojection_readout_loss": 0.00015750319848143552,
+    "weighted_trace_covariant_error": 1.9895196601282805e-13,
+    "same_read_frames": {
+      "record_projector_HS_squared": 1.1339875512552045e-28,
+      "qutrit_join_fidelity": 0.11111111111111117
+    },
+    "conjugate_read_frames": {
+      "qutrit_join_fidelity": 1.0000000000000004,
+      "record_projector_HS_squared": 3.9999999999999982,
+      "entire_joint_state_stabilizer_error": 1.3099122111518279e-17
+    },
+    "shared_real_SU2_subgroup_preserves_both": true,
+    "exact_sympy_join_stabilizer_and_commutator_displacement": true,
+    "sample_physical_operator_covariance_error": 4.996003610813204e-16,
+    "full_31104D_three_arm_covariance_error_12_records": 6.863387130407235e-16
+  },
+  "scope_limits": [
+    "The 31104D embedding is a concrete source-motivated realization, not a proof the original axiom selects it uniquely.",
+    "Invariance of trace is weaker than gauge descent of individual record operators.",
+    "Fixed join and fixed commutator-difference projector have different symmetry stabilizers.",
+    "Matching-basis dependence is not alone a source contradiction: S7 places matching invariance on reads rather than fixed individual records.",
+    "No mass, momentum, spacetime evolution, QED beta function, or physical Wilson loop was derived."
+  ]
+}

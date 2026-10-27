@@ -1,0 +1,89 @@
+{
+  "scope": "CPTP instrument and 172-record compatibility audit on the original pair input; NO QED beta function derived.",
+  "binary_and_pair_preserving_instruments": {
+    "dimension_A": 9,
+    "dimension_B": 4,
+    "source_Bell_projector_is_exactly_first_Kraus": true,
+    "CPTP_completeness_all_9_A_dimensions": true,
+    "9_Kraus_outcome_probabilities": [
+      "1/6",
+      "1/12",
+      "1/4",
+      "1/4",
+      "1/4",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "9_Kraus_remote_pair_concurrence": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      null,
+      null,
+      null,
+      null
+    ],
+    "all_5_nonzero_reprepared_outcomes_are_pure_Bell3_x_Bell2": true,
+    "after_averaging_remote_state": "I_4/4",
+    "binary_Luders_fail_remote_density": "(3/10)*I_4 - (1/5)*P_B",
+    "binary_Luders_failure_probability": "5/6",
+    "binary_Luders_failure_Bell_fidelity": "1/10",
+    "limitation": "Extra Kraus outcomes reset/reprepare qutrit Bell pairs: excluded by the source's distillation-only rule; fixed (3,2)x(3,2) source input only."
+  },
+  "standard_complete_qutrit_Bell_measurement": {
+    "qutrit_Bell_basis": 9,
+    "probability_3_shift_zero_each": "1/6",
+    "probability_6_nonzero_shift_each": "1/12",
+    "total_probability_Bell_pair_remote": "1/2",
+    "total_probability_product_remote": "1/2",
+    "all_outcomes_remote_average_I4_over_4": true,
+    "remote_concurrences": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "caveat": "Six outcomes have unentangled remote qubits, outside the source pure-pair-only ontology."
+  },
+  "independently_rotated_support_stress_test": {
+    "first_support": "span(|0>,|2>)",
+    "second_support": "span(|0>,|1>)",
+    "each_initial_3x2_link_is_maximally_entangled": true,
+    "fixed_P3_outcome_probability": "1/12",
+    "normalized_remote_output": "|0,0> (separable product)",
+    "remote_pure_state_concurrence": "0",
+    "meaning": "The particular fixed P3 selected branch is not pair-preserving for all independently oriented two-dimensional qutrit supports. A covariant support-dependent join or an admissibility restriction is necessary. The source does not settle that operational choice."
+  },
+  "172_record_alpha_status": {
+    "conditional_sector_counts": [
+      79,
+      48,
+      42,
+      3
+    ],
+    "readout_dimension": 31104,
+    "conditional_alpha_exact": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+    "conditional_alpha_inverse_decimal": "137.0359991895661550291837",
+    "branch_readout_examples": {
+      "M_failure_zero": "sqrt(6)/62208 + sqrt(2)/3888 + 7*sqrt(3)/31104 + 79/186624",
+      "M_failure_same_as_success": "sqrt(6)/10368 + sqrt(2)/648 + 7*sqrt(3)/5184 + 79/31104",
+      "M_failure_identity": "sqrt(6)/62208 + sqrt(2)/3888 + 7*sqrt(3)/31104 + 155599/186624"
+    },
+    "branch_readout_approximations": {
+      "M_failure_zero": 0.0012162254272770434,
+      "M_failure_same_as_success": 0.00729735256366226,
+      "M_failure_identity": 0.8345495587606104
+    },
+    "inference": "Only the selected-outcome count is specified. CPTP completion does not uniquely determine the unread or failed-branch readout; unconditional alpha is undefined without a new observable and an extension rule."
+  },
+  "status": "All exact SymPy and finite complex NumPy assertions passed."
+}

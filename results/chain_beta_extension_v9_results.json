@@ -1,0 +1,68 @@
+{
+  "ambient_dimension": 175,
+  "commutator_differences_survival_projections": [
+    0.0,
+    0.0,
+    0.9999999999999996
+  ],
+  "commutator_sector_four_rotation_twirl": "sqrt(6)/2 * identity_6",
+  "continuous_matching_rotation_sample": [
+    {
+      "delta_alpha_fixed_projection": 6.396346643930943e-18,
+      "formula": "sqrt(6)*(1-cos(theta))/31104",
+      "theta_over_pi": 0.0
+    },
+    {
+      "delta_alpha_fixed_projection": 2.3065809388326805e-05,
+      "formula": "sqrt(6)*(1-cos(theta))/31104",
+      "theta_over_pi": 0.25
+    },
+    {
+      "delta_alpha_fixed_projection": 7.875159924072188e-05,
+      "formula": "sqrt(6)*(1-cos(theta))/31104",
+      "theta_over_pi": 0.5
+    },
+    {
+      "delta_alpha_fixed_projection": 0.00015750319848143552,
+      "formula": "sqrt(6)*(1-cos(theta))/31104",
+      "theta_over_pi": 1.0
+    }
+  ],
+  "correlated_identical_matching_M_and_record_projector_invariant": true,
+  "explicit_operator_HS_orthonormality": "verified for 175 operators on C3*C2*C3*C2",
+  "fixed_172_normalized_readout_difference_decimal": 0.0001575031984814286,
+  "fixed_172_normalized_readout_difference_exact": "2*sqrt(6)/31104",
+  "fixed_172_projected_trace_after_matching": 222.07787465458443,
+  "fixed_172_trace_difference_exact": "2*sqrt(6)",
+  "full_ambient_invariant_trace": 226.976854140151,
+  "independent_matching_record_projector_HS_squared": 3.9999999999999982,
+  "key_qualification": "All scalar trace shifts are for a fixed-coordinate re-projection prescription, NOT gauge-invariant physical predictions. Covariantly transported M has unchanged trace.",
+  "matched_local_SU3_SU2_exactly_preserves_link_ket": true,
+  "matching_action_on_175_directions_residual": 3.443405604966428e-15,
+  "minimum_single_letter_gauge_closure_dimension": 6,
+  "original_readout_decimal": 0.00729735256366226,
+  "original_readout_exact": "(79 + 48*sqrt(2) + 42*sqrt(3) + 3*sqrt(6))/31104",
+  "paper_record_dimension": 172,
+  "paper_record_eigenvalue_multiplicities": {
+    "1": 79,
+    "sqrt2": 48,
+    "sqrt3": 42,
+    "sqrt6": 3,
+    "zero_extra": 3
+  },
+  "random_matched_SU2_tests": {
+    "max_SO3_adjoint_orthogonality_error": 2.3811163998107138e-15,
+    "max_leakage_formula_error": 3.1086244689504383e-15,
+    "max_pair_ket_invariance_error": 5.573641181125635e-16,
+    "trials": 20
+  },
+  "record_subspace_projector_rank": 172,
+  "source": "ChainTheoryAlpha.pdf, supplemental S7 equations S3--S5",
+  "status": "exact finite-dimensional record test, not a QED beta derivation",
+  "symbolic_commutator_audit": {
+    "exact": true,
+    "fixed_commutator_trace_after_shift": "sqrt(6)",
+    "missing_sector_rank": "3",
+    "projector_shift_HS_squared": "4"
+  }
+}

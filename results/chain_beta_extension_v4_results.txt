@@ -1,0 +1,328 @@
+{
+  "study": "Chain Theory beta extension v4; no beta-function derivation claimed",
+  "source_projection": {
+    "existing_link_read_invariance": 1.5700924586837752e-16,
+    "joins": [
+      {
+        "type": [
+          2,
+          2
+        ],
+        "conditional_success_probability": 0.2499999999999999,
+        "exact_success_probability": "1/4",
+        "unnormalized_output_error": 7.850462293418876e-17
+      },
+      {
+        "type": [
+          3,
+          2
+        ],
+        "conditional_success_probability": 0.16666666666666666,
+        "exact_success_probability": "1/6",
+        "unnormalized_output_error": 7.850462293418876e-17
+      },
+      {
+        "type": [
+          3,
+          3
+        ],
+        "conditional_success_probability": 0.11111111111111122,
+        "exact_success_probability": "1/9",
+        "unnormalized_output_error": 1.442222014787673e-16
+      },
+      {
+        "type": [
+          4,
+          2
+        ],
+        "conditional_success_probability": 0.12499999999999994,
+        "exact_success_probability": "1/8",
+        "unnormalized_output_error": 0.0
+      },
+      {
+        "type": [
+          5,
+          3
+        ],
+        "conditional_success_probability": 0.06666666666666671,
+        "exact_success_probability": "1/15",
+        "unnormalized_output_error": 4.8074067159589095e-17
+      }
+    ]
+  },
+  "chain_distillation": {
+    "ordinary_Hilbert_contraction_of_chains": [
+      {
+        "d": 2,
+        "links": 1,
+        "joins": 0,
+        "unnormalized_amplitude_factor": 1.0,
+        "ordinary_Born_success_product": 0.9999999999999998,
+        "amplitude_error": 0.0
+      },
+      {
+        "d": 2,
+        "links": 2,
+        "joins": 1,
+        "unnormalized_amplitude_factor": 0.5,
+        "ordinary_Born_success_product": 0.2499999999999999,
+        "amplitude_error": 7.850462293418876e-17
+      },
+      {
+        "d": 2,
+        "links": 3,
+        "joins": 2,
+        "unnormalized_amplitude_factor": 0.25,
+        "ordinary_Born_success_product": 0.062499999999999944,
+        "amplitude_error": 7.850462293418876e-17
+      },
+      {
+        "d": 2,
+        "links": 4,
+        "joins": 3,
+        "unnormalized_amplitude_factor": 0.125,
+        "ordinary_Born_success_product": 0.015624999999999983,
+        "amplitude_error": 5.887846720064156e-17
+      },
+      {
+        "d": 2,
+        "links": 5,
+        "joins": 4,
+        "unnormalized_amplitude_factor": 0.0625,
+        "ordinary_Born_success_product": 0.003906249999999994,
+        "amplitude_error": 3.925231146709438e-17
+      },
+      {
+        "d": 3,
+        "links": 1,
+        "joins": 0,
+        "unnormalized_amplitude_factor": 1.0,
+        "ordinary_Born_success_product": 1.0,
+        "amplitude_error": 0.0
+      },
+      {
+        "d": 3,
+        "links": 2,
+        "joins": 1,
+        "unnormalized_amplitude_factor": 0.3333333333333333,
+        "ordinary_Born_success_product": 0.11111111111111122,
+        "amplitude_error": 1.442222014787673e-16
+      },
+      {
+        "d": 3,
+        "links": 3,
+        "joins": 2,
+        "unnormalized_amplitude_factor": 0.1111111111111111,
+        "ordinary_Born_success_product": 0.012345679012345696,
+        "amplitude_error": 7.211110073938365e-17
+      },
+      {
+        "d": 3,
+        "links": 4,
+        "joins": 3,
+        "unnormalized_amplitude_factor": 0.037037037037037035,
+        "ordinary_Born_success_product": 0.0013717421124828562,
+        "amplitude_error": 3.6055550369691825e-17
+      },
+      {
+        "d": 3,
+        "links": 5,
+        "joins": 4,
+        "unnormalized_amplitude_factor": 0.012345679012345678,
+        "ordinary_Born_success_product": 0.00015241579027587294,
+        "amplitude_error": 1.3520831388634434e-17
+      },
+      {
+        "d": 4,
+        "links": 1,
+        "joins": 0,
+        "unnormalized_amplitude_factor": 1.0,
+        "ordinary_Born_success_product": 1.0,
+        "amplitude_error": 0.0
+      },
+      {
+        "d": 4,
+        "links": 2,
+        "joins": 1,
+        "unnormalized_amplitude_factor": 0.25,
+        "ordinary_Born_success_product": 0.0625,
+        "amplitude_error": 0.0
+      },
+      {
+        "d": 4,
+        "links": 3,
+        "joins": 2,
+        "unnormalized_amplitude_factor": 0.0625,
+        "ordinary_Born_success_product": 0.00390625,
+        "amplitude_error": 0.0
+      },
+      {
+        "d": 4,
+        "links": 4,
+        "joins": 3,
+        "unnormalized_amplitude_factor": 0.015625,
+        "ordinary_Born_success_product": 0.000244140625,
+        "amplitude_error": 0.0
+      },
+      {
+        "d": 4,
+        "links": 5,
+        "joins": 4,
+        "unnormalized_amplitude_factor": 0.00390625,
+        "ordinary_Born_success_product": 1.52587890625e-05,
+        "amplitude_error": 0.0
+      }
+    ],
+    "interpretation": "A path-length amplitude exists before branch normalization; the normalized endpoint Bell state does not determine number of joins."
+  },
+  "overlapping_projection_order": {
+    "overlapping_projectors": [
+      {
+        "d": 2,
+        "overlap_projector_commutator_HS_squared": 0.7499999999999993,
+        "exact_formula": "2*(d^2-1)/d^3 = 3/4",
+        "ABA_sandwich_error": 1.5700924586837752e-16
+      },
+      {
+        "d": 3,
+        "overlap_projector_commutator_HS_squared": 0.5925925925925931,
+        "exact_formula": "2*(d^2-1)/d^3 = 16/27",
+        "ABA_sandwich_error": 1.442222014787673e-16
+      },
+      {
+        "d": 4,
+        "overlap_projector_commutator_HS_squared": 0.46875,
+        "exact_formula": "2*(d^2-1)/d^3 = 15/32",
+        "ABA_sandwich_error": 0.0
+      }
+    ],
+    "limitation": "Tests ordinary overlapping factors; the source uses distinct virtual copies for links at a shared node. Noncommutation does not by itself define a time orientation."
+  },
+  "postselection_conditional_signalling_warning": {
+    "warning": "Only applies if arbitrary state preparation and deterministic normalized projection are allowed; those are not guaranteed by the source axiom.",
+    "cases": [
+      {
+        "remote_input_C": 0,
+        "output_A_probabilities": [
+          1.0,
+          0.0
+        ],
+        "branch_probability": 0.2499999999999999
+      },
+      {
+        "remote_input_C": 1,
+        "output_A_probabilities": [
+          0.0,
+          1.0
+        ],
+        "branch_probability": 0.2499999999999999
+      }
+    ]
+  },
+  "graph_topology": {
+    "distinct_graphs_with_identical_local_3_to_2_star": [
+      {
+        "offsets": [
+          0,
+          1,
+          2
+        ],
+        "vertices": 14,
+        "edges": 21,
+        "distinct_4_cycles": 7,
+        "qutrit_degree": 3,
+        "qubit_degree": 3,
+        "girth": 4,
+        "trace_adjacency_4": 266,
+        "max_adjacency_eigenvalue": 3.000000000000001
+      },
+      {
+        "offsets": [
+          0,
+          1,
+          3
+        ],
+        "vertices": 14,
+        "edges": 21,
+        "distinct_4_cycles": 0,
+        "qutrit_degree": 3,
+        "qubit_degree": 3,
+        "girth": 6,
+        "trace_adjacency_4": 210,
+        "max_adjacency_eigenvalue": 2.9999999999999996
+      }
+    ],
+    "note": "Per-edge copies represent shared qudits following the paper; this does not prove a unique physical Hilbert-space identification of those copies."
+  },
+  "unitary_local_walk": {
+    "properties": "unitary, radius 1, translation-invariant, parity-symmetric",
+    "all_work_even_with_different_coin_parameters": [
+      {
+        "m": 0.0,
+        "unitarity_defect": 0.0,
+        "translation_covariance_defect": 0.0,
+        "parity_covariance_defect": 0.0,
+        "largest_superluminal_tail": 0.0,
+        "step1_probability_at_plusminus_one": [
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "m": 0.21,
+        "unitarity_defect": 1.2648594039608839e-17,
+        "translation_covariance_defect": 0.0,
+        "parity_covariance_defect": 0.0,
+        "largest_superluminal_tail": 0.0,
+        "step1_probability_at_plusminus_one": [
+          0.9565444701561542,
+          0.04345552984384586
+        ]
+      },
+      {
+        "m": 0.61,
+        "unitarity_defect": 2.5481355650903384e-17,
+        "translation_covariance_defect": 0.0,
+        "parity_covariance_defect": 0.0,
+        "largest_superluminal_tail": 0.0,
+        "step1_probability_at_plusminus_one": [
+          0.6718228731580235,
+          0.32817712684197653
+        ]
+      }
+    ],
+    "difference_from_massless_update": [
+      1.4821971959173228,
+      4.246786810690177
+    ],
+    "note": "Coin angle controls dynamics and is not selected by maximally entangled pairs."
+  },
+  "RG_blocking": {
+    "blockings": [
+      {
+        "ring_sites": 6,
+        "translation_related_nearest_neighbor_blockings": 2,
+        "individual_blocking_invariant_under_single_shift": false
+      },
+      {
+        "ring_sites": 8,
+        "translation_related_nearest_neighbor_blockings": 2,
+        "individual_blocking_invariant_under_single_shift": false
+      },
+      {
+        "ring_sites": 10,
+        "translation_related_nearest_neighbor_blockings": 2,
+        "individual_blocking_invariant_under_single_shift": false
+      }
+    ],
+    "note": "This addresses pairwise decimation only, not every possible RG construction."
+  },
+  "charge_trace": {
+    "source_representation": "(3,2)_{1/6}",
+    "additional_physics": "Q_em=T3+Y",
+    "Tr(Q_em^2)": "5/3",
+    "numeric_trace": 1.6666666666666667,
+    "beta_function_from_original_axiom": "undetermined"
+  }
+}
+ALL v4 ALGEBRAIC AND FINITE-SIZE TESTS PASSED
